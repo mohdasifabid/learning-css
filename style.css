@@ -23,6 +23,7 @@
 .logo {
   padding: 0.5rem;
   border: 2px solid transparent;
+  border-top-left-radius: 5px;
 }
 .logo:hover {
   background-color: blanchedalmond;
@@ -48,14 +49,17 @@ body {
 .box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
   width: 100px;
-  height: 100px;
-  background-color: gray;
+  height: 80px;
+  background-color: darkslategrey;
+  color: white;
+  border: 2px solid #cc5500;
 }
 .output {
   justify-content: center;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
