@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="first-chip.css" />
+  </head>
+  <body>
+    <mat-form-field>
+      <mat-chip-list #chipList>
+        <mat-chip>Asif</mat-chip>
+        <mat-chip>Arif</mat-chip>
+        <mat-chip>Heena</mat-chip>
+        <mat-chip>Nasima</mat-chip>
+        <mat-chip>Abid</mat-chip>
+      </mat-chip-list>
+      <input [matChipInputFor]="chipList" />
+    </mat-form-field>
+  </body>
+</html>
