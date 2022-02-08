@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 200px;
+  background-color: aliceblue;
+  justify-content: center;
+  position: relative;
+  /* align-content: center; */
+}
+
+img {
+  width: 30%;
+}
